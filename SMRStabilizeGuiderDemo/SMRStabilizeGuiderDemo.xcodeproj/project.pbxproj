@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F152AC9E7E09062203FA532 /* Pods_SMRStabilizeGuiderDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC977C2528AAFBF98566296 /* Pods_SMRStabilizeGuiderDemo.framework */; };
+		BD05A03120F5D9FE00139B5D /* SMRStabilizeLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = BD05A03020F5D9FE00139B5D /* SMRStabilizeLoader.m */; };
+		BDEE25F120E3351F005AD3E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEE25F020E3351F005AD3E2 /* AppDelegate.m */; };
+		BDEE25F420E3351F005AD3E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEE25F320E3351F005AD3E2 /* ViewController.m */; };
+		BDEE25F720E3351F005AD3E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDEE25F520E3351F005AD3E2 /* Main.storyboard */; };
+		BDEE25FA20E3351F005AD3E2 /* SMRStabilizeGuiderDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDEE25F820E3351F005AD3E2 /* SMRStabilizeGuiderDemo.xcdatamodeld */; };
+		BDEE25FC20E33520005AD3E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDEE25FB20E33520005AD3E2 /* Assets.xcassets */; };
+		BDEE25FF20E33520005AD3E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDEE25FD20E33520005AD3E2 /* LaunchScreen.storyboard */; };
+		BDEE260220E33520005AD3E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEE260120E33520005AD3E2 /* main.m */; };
+		BDEE260C20E33520005AD3E2 /* SMRStabilizeGuiderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEE260B20E33520005AD3E2 /* SMRStabilizeGuiderDemoTests.m */; };
+		BDEE261720E33520005AD3E2 /* SMRStabilizeGuiderDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEE261620E33520005AD3E2 /* SMRStabilizeGuiderDemoUITests.m */; };
+		BDEE262620E33551005AD3E2 /* MightyCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEE262520E33551005AD3E2 /* MightyCrash.m */; };
+		BDEE262D20E3667C005AD3E2 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = BDEE262C20E3667C005AD3E2 /* main.js */; };
+		BDEE263920E372DF005AD3E2 /* SMRStabilizeGuider.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEE263720E372DE005AD3E2 /* SMRStabilizeGuider.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDEE260820E33520005AD3E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDEE25E420E3351F005AD3E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDEE25EB20E3351F005AD3E2;
+			remoteInfo = SMRStabilizeGuiderDemo;
+		};
+		BDEE261320E33520005AD3E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDEE25E420E3351F005AD3E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDEE25EB20E3351F005AD3E2;
+			remoteInfo = SMRStabilizeGuiderDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		337AC630C3E9DD7D9CE19598 /* Pods-SMRStabilizeGuiderDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMRStabilizeGuiderDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SMRStabilizeGuiderDemo/Pods-SMRStabilizeGuiderDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6CC977C2528AAFBF98566296 /* Pods_SMRStabilizeGuiderDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMRStabilizeGuiderDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		866A39E3072D2A0586EB45D4 /* Pods-SMRStabilizeGuiderDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMRStabilizeGuiderDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SMRStabilizeGuiderDemo/Pods-SMRStabilizeGuiderDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BD05A02F20F5D9FE00139B5D /* SMRStabilizeLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMRStabilizeLoader.h; sourceTree = "<group>"; };
+		BD05A03020F5D9FE00139B5D /* SMRStabilizeLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMRStabilizeLoader.m; sourceTree = "<group>"; };
+		BDEE25EC20E3351F005AD3E2 /* SMRStabilizeGuiderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMRStabilizeGuiderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDEE25EF20E3351F005AD3E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDEE25F020E3351F005AD3E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDEE25F220E3351F005AD3E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BDEE25F320E3351F005AD3E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BDEE25F620E3351F005AD3E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDEE25F920E3351F005AD3E2 /* SMRStabilizeGuiderDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SMRStabilizeGuiderDemo.xcdatamodel; sourceTree = "<group>"; };
+		BDEE25FB20E33520005AD3E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDEE25FE20E33520005AD3E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDEE260020E33520005AD3E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDEE260120E33520005AD3E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDEE260720E33520005AD3E2 /* SMRStabilizeGuiderDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMRStabilizeGuiderDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDEE260B20E33520005AD3E2 /* SMRStabilizeGuiderDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMRStabilizeGuiderDemoTests.m; sourceTree = "<group>"; };
+		BDEE260D20E33520005AD3E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDEE261220E33520005AD3E2 /* SMRStabilizeGuiderDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMRStabilizeGuiderDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDEE261620E33520005AD3E2 /* SMRStabilizeGuiderDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMRStabilizeGuiderDemoUITests.m; sourceTree = "<group>"; };
+		BDEE261820E33520005AD3E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDEE262420E33551005AD3E2 /* MightyCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MightyCrash.h; sourceTree = "<group>"; };
+		BDEE262520E33551005AD3E2 /* MightyCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MightyCrash.m; sourceTree = "<group>"; };
+		BDEE262C20E3667C005AD3E2 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		BDEE263720E372DE005AD3E2 /* SMRStabilizeGuider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMRStabilizeGuider.m; sourceTree = "<group>"; };
+		BDEE263820E372DE005AD3E2 /* SMRStabilizeGuider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMRStabilizeGuider.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDEE25E920E3351F005AD3E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F152AC9E7E09062203FA532 /* Pods_SMRStabilizeGuiderDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEE260420E33520005AD3E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEE260F20E33520005AD3E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7AFC5FC73EFBA4215DDBC9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				866A39E3072D2A0586EB45D4 /* Pods-SMRStabilizeGuiderDemo.debug.xcconfig */,
+				337AC630C3E9DD7D9CE19598 /* Pods-SMRStabilizeGuiderDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BDEE25E320E3351F005AD3E2 = {
+			isa = PBXGroup;
+			children = (
+				BDEE262C20E3667C005AD3E2 /* main.js */,
+				BDEE263620E372DE005AD3E2 /* SMRStabilizeGuider */,
+				BDEE25EE20E3351F005AD3E2 /* SMRStabilizeGuiderDemo */,
+				BDEE260A20E33520005AD3E2 /* SMRStabilizeGuiderDemoTests */,
+				BDEE261520E33520005AD3E2 /* SMRStabilizeGuiderDemoUITests */,
+				BDEE25ED20E3351F005AD3E2 /* Products */,
+				B7AFC5FC73EFBA4215DDBC9A /* Pods */,
+				D4C7461FD12EE62FFF68206F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BDEE25ED20E3351F005AD3E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDEE25EC20E3351F005AD3E2 /* SMRStabilizeGuiderDemo.app */,
+				BDEE260720E33520005AD3E2 /* SMRStabilizeGuiderDemoTests.xctest */,
+				BDEE261220E33520005AD3E2 /* SMRStabilizeGuiderDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDEE25EE20E3351F005AD3E2 /* SMRStabilizeGuiderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BDEE25EF20E3351F005AD3E2 /* AppDelegate.h */,
+				BDEE25F020E3351F005AD3E2 /* AppDelegate.m */,
+				BDEE25F220E3351F005AD3E2 /* ViewController.h */,
+				BDEE25F320E3351F005AD3E2 /* ViewController.m */,
+				BDEE262420E33551005AD3E2 /* MightyCrash.h */,
+				BDEE262520E33551005AD3E2 /* MightyCrash.m */,
+				BDEE25F520E3351F005AD3E2 /* Main.storyboard */,
+				BDEE25FB20E33520005AD3E2 /* Assets.xcassets */,
+				BDEE25FD20E33520005AD3E2 /* LaunchScreen.storyboard */,
+				BDEE260020E33520005AD3E2 /* Info.plist */,
+				BDEE260120E33520005AD3E2 /* main.m */,
+				BDEE25F820E3351F005AD3E2 /* SMRStabilizeGuiderDemo.xcdatamodeld */,
+			);
+			path = SMRStabilizeGuiderDemo;
+			sourceTree = "<group>";
+		};
+		BDEE260A20E33520005AD3E2 /* SMRStabilizeGuiderDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDEE260B20E33520005AD3E2 /* SMRStabilizeGuiderDemoTests.m */,
+				BDEE260D20E33520005AD3E2 /* Info.plist */,
+			);
+			path = SMRStabilizeGuiderDemoTests;
+			sourceTree = "<group>";
+		};
+		BDEE261520E33520005AD3E2 /* SMRStabilizeGuiderDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDEE261620E33520005AD3E2 /* SMRStabilizeGuiderDemoUITests.m */,
+				BDEE261820E33520005AD3E2 /* Info.plist */,
+			);
+			path = SMRStabilizeGuiderDemoUITests;
+			sourceTree = "<group>";
+		};
+		BDEE263620E372DE005AD3E2 /* SMRStabilizeGuider */ = {
+			isa = PBXGroup;
+			children = (
+				BDEE263820E372DE005AD3E2 /* SMRStabilizeGuider.h */,
+				BDEE263720E372DE005AD3E2 /* SMRStabilizeGuider.m */,
+				BD05A02F20F5D9FE00139B5D /* SMRStabilizeLoader.h */,
+				BD05A03020F5D9FE00139B5D /* SMRStabilizeLoader.m */,
+			);
+			path = SMRStabilizeGuider;
+			sourceTree = "<group>";
+		};
+		D4C7461FD12EE62FFF68206F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CC977C2528AAFBF98566296 /* Pods_SMRStabilizeGuiderDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDEE25EB20E3351F005AD3E2 /* SMRStabilizeGuiderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDEE261B20E33520005AD3E2 /* Build configuration list for PBXNativeTarget "SMRStabilizeGuiderDemo" */;
+			buildPhases = (
+				E01F7A5D72F6DC3E76BA72AF /* [CP] Check Pods Manifest.lock */,
+				BDEE25E820E3351F005AD3E2 /* Sources */,
+				BDEE25E920E3351F005AD3E2 /* Frameworks */,
+				BDEE25EA20E3351F005AD3E2 /* Resources */,
+				A05AD46A54671761695B408E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMRStabilizeGuiderDemo;
+			productName = SMRStabilizeGuiderDemo;
+			productReference = BDEE25EC20E3351F005AD3E2 /* SMRStabilizeGuiderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDEE260620E33520005AD3E2 /* SMRStabilizeGuiderDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDEE261E20E33520005AD3E2 /* Build configuration list for PBXNativeTarget "SMRStabilizeGuiderDemoTests" */;
+			buildPhases = (
+				BDEE260320E33520005AD3E2 /* Sources */,
+				BDEE260420E33520005AD3E2 /* Frameworks */,
+				BDEE260520E33520005AD3E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDEE260920E33520005AD3E2 /* PBXTargetDependency */,
+			);
+			name = SMRStabilizeGuiderDemoTests;
+			productName = SMRStabilizeGuiderDemoTests;
+			productReference = BDEE260720E33520005AD3E2 /* SMRStabilizeGuiderDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDEE261120E33520005AD3E2 /* SMRStabilizeGuiderDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDEE262120E33520005AD3E2 /* Build configuration list for PBXNativeTarget "SMRStabilizeGuiderDemoUITests" */;
+			buildPhases = (
+				BDEE260E20E33520005AD3E2 /* Sources */,
+				BDEE260F20E33520005AD3E2 /* Frameworks */,
+				BDEE261020E33520005AD3E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDEE261420E33520005AD3E2 /* PBXTargetDependency */,
+			);
+			name = SMRStabilizeGuiderDemoUITests;
+			productName = SMRStabilizeGuiderDemoUITests;
+			productReference = BDEE261220E33520005AD3E2 /* SMRStabilizeGuiderDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDEE25E420E3351F005AD3E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = dingzhiwen;
+				TargetAttributes = {
+					BDEE25EB20E3351F005AD3E2 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					BDEE260620E33520005AD3E2 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = BDEE25EB20E3351F005AD3E2;
+					};
+					BDEE261120E33520005AD3E2 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = BDEE25EB20E3351F005AD3E2;
+					};
+				};
+			};
+			buildConfigurationList = BDEE25E720E3351F005AD3E2 /* Build configuration list for PBXProject "SMRStabilizeGuiderDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDEE25E320E3351F005AD3E2;
+			productRefGroup = BDEE25ED20E3351F005AD3E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDEE25EB20E3351F005AD3E2 /* SMRStabilizeGuiderDemo */,
+				BDEE260620E33520005AD3E2 /* SMRStabilizeGuiderDemoTests */,
+				BDEE261120E33520005AD3E2 /* SMRStabilizeGuiderDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDEE25EA20E3351F005AD3E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEE25FF20E33520005AD3E2 /* LaunchScreen.storyboard in Resources */,
+				BDEE25FC20E33520005AD3E2 /* Assets.xcassets in Resources */,
+				BDEE25F720E3351F005AD3E2 /* Main.storyboard in Resources */,
+				BDEE262D20E3667C005AD3E2 /* main.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEE260520E33520005AD3E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEE261020E33520005AD3E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A05AD46A54671761695B408E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SMRStabilizeGuiderDemo/Pods-SMRStabilizeGuiderDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Aspects/Aspects.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Aspects.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SMRStabilizeGuiderDemo/Pods-SMRStabilizeGuiderDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E01F7A5D72F6DC3E76BA72AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SMRStabilizeGuiderDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDEE25E820E3351F005AD3E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEE25F420E3351F005AD3E2 /* ViewController.m in Sources */,
+				BDEE25F120E3351F005AD3E2 /* AppDelegate.m in Sources */,
+				BD05A03120F5D9FE00139B5D /* SMRStabilizeLoader.m in Sources */,
+				BDEE263920E372DF005AD3E2 /* SMRStabilizeGuider.m in Sources */,
+				BDEE260220E33520005AD3E2 /* main.m in Sources */,
+				BDEE262620E33551005AD3E2 /* MightyCrash.m in Sources */,
+				BDEE25FA20E3351F005AD3E2 /* SMRStabilizeGuiderDemo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEE260320E33520005AD3E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEE260C20E33520005AD3E2 /* SMRStabilizeGuiderDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEE260E20E33520005AD3E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEE261720E33520005AD3E2 /* SMRStabilizeGuiderDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDEE260920E33520005AD3E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDEE25EB20E3351F005AD3E2 /* SMRStabilizeGuiderDemo */;
+			targetProxy = BDEE260820E33520005AD3E2 /* PBXContainerItemProxy */;
+		};
+		BDEE261420E33520005AD3E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDEE25EB20E3351F005AD3E2 /* SMRStabilizeGuiderDemo */;
+			targetProxy = BDEE261320E33520005AD3E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDEE25F520E3351F005AD3E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDEE25F620E3351F005AD3E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDEE25FD20E33520005AD3E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDEE25FE20E33520005AD3E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDEE261920E33520005AD3E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BDEE261A20E33520005AD3E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDEE261C20E33520005AD3E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 866A39E3072D2A0586EB45D4 /* Pods-SMRStabilizeGuiderDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U92X5J5QF;
+				INFOPLIST_FILE = SMRStabilizeGuiderDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sumrise.SMRStabilizeGuiderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDEE261D20E33520005AD3E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 337AC630C3E9DD7D9CE19598 /* Pods-SMRStabilizeGuiderDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U92X5J5QF;
+				INFOPLIST_FILE = SMRStabilizeGuiderDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sumrise.SMRStabilizeGuiderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDEE261F20E33520005AD3E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U92X5J5QF;
+				INFOPLIST_FILE = SMRStabilizeGuiderDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sumrise.SMRStabilizeGuiderDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMRStabilizeGuiderDemo.app/SMRStabilizeGuiderDemo";
+			};
+			name = Debug;
+		};
+		BDEE262020E33520005AD3E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U92X5J5QF;
+				INFOPLIST_FILE = SMRStabilizeGuiderDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sumrise.SMRStabilizeGuiderDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMRStabilizeGuiderDemo.app/SMRStabilizeGuiderDemo";
+			};
+			name = Release;
+		};
+		BDEE262220E33520005AD3E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U92X5J5QF;
+				INFOPLIST_FILE = SMRStabilizeGuiderDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sumrise.SMRStabilizeGuiderDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SMRStabilizeGuiderDemo;
+			};
+			name = Debug;
+		};
+		BDEE262320E33520005AD3E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U92X5J5QF;
+				INFOPLIST_FILE = SMRStabilizeGuiderDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sumrise.SMRStabilizeGuiderDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SMRStabilizeGuiderDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDEE25E720E3351F005AD3E2 /* Build configuration list for PBXProject "SMRStabilizeGuiderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEE261920E33520005AD3E2 /* Debug */,
+				BDEE261A20E33520005AD3E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDEE261B20E33520005AD3E2 /* Build configuration list for PBXNativeTarget "SMRStabilizeGuiderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEE261C20E33520005AD3E2 /* Debug */,
+				BDEE261D20E33520005AD3E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDEE261E20E33520005AD3E2 /* Build configuration list for PBXNativeTarget "SMRStabilizeGuiderDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEE261F20E33520005AD3E2 /* Debug */,
+				BDEE262020E33520005AD3E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDEE262120E33520005AD3E2 /* Build configuration list for PBXNativeTarget "SMRStabilizeGuiderDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEE262220E33520005AD3E2 /* Debug */,
+				BDEE262320E33520005AD3E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDEE25F820E3351F005AD3E2 /* SMRStabilizeGuiderDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDEE25F920E3351F005AD3E2 /* SMRStabilizeGuiderDemo.xcdatamodel */,
+			);
+			currentVersion = BDEE25F920E3351F005AD3E2 /* SMRStabilizeGuiderDemo.xcdatamodel */;
+			path = SMRStabilizeGuiderDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BDEE25E420E3351F005AD3E2 /* Project object */;
+}
