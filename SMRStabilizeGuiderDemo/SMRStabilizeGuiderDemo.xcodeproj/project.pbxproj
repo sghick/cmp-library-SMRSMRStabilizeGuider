@@ -20,7 +20,7 @@
 		BDEE261720E33520005AD3E2 /* SMRStabilizeGuiderDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEE261620E33520005AD3E2 /* SMRStabilizeGuiderDemoUITests.m */; };
 		BDEE262620E33551005AD3E2 /* MightyCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEE262520E33551005AD3E2 /* MightyCrash.m */; };
 		BDEE262D20E3667C005AD3E2 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = BDEE262C20E3667C005AD3E2 /* main.js */; };
-		BDEE263920E372DF005AD3E2 /* SMRStabilizeGuider.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEE263720E372DE005AD3E2 /* SMRStabilizeGuider.m */; };
+		FE6BB5F42102D123006FC708 /* SMRStabilizeGuider.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6BB5F32102D123006FC708 /* SMRStabilizeGuider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,8 +66,8 @@
 		BDEE262420E33551005AD3E2 /* MightyCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MightyCrash.h; sourceTree = "<group>"; };
 		BDEE262520E33551005AD3E2 /* MightyCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MightyCrash.m; sourceTree = "<group>"; };
 		BDEE262C20E3667C005AD3E2 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
-		BDEE263720E372DE005AD3E2 /* SMRStabilizeGuider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMRStabilizeGuider.m; sourceTree = "<group>"; };
-		BDEE263820E372DE005AD3E2 /* SMRStabilizeGuider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMRStabilizeGuider.h; sourceTree = "<group>"; };
+		FE6BB5F22102D123006FC708 /* SMRStabilizeGuider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMRStabilizeGuider.h; sourceTree = "<group>"; };
+		FE6BB5F32102D123006FC708 /* SMRStabilizeGuider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMRStabilizeGuider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				BDEE262C20E3667C005AD3E2 /* main.js */,
-				BDEE263620E372DE005AD3E2 /* SMRStabilizeGuider */,
+				FE6BB5F12102D123006FC708 /* SMRStabilizeGuider */,
 				BDEE25EE20E3351F005AD3E2 /* SMRStabilizeGuiderDemo */,
 				BDEE260A20E33520005AD3E2 /* SMRStabilizeGuiderDemoTests */,
 				BDEE261520E33520005AD3E2 /* SMRStabilizeGuiderDemoUITests */,
@@ -136,6 +136,8 @@
 				BDEE25F020E3351F005AD3E2 /* AppDelegate.m */,
 				BDEE25F220E3351F005AD3E2 /* ViewController.h */,
 				BDEE25F320E3351F005AD3E2 /* ViewController.m */,
+				BD05A02F20F5D9FE00139B5D /* SMRStabilizeLoader.h */,
+				BD05A03020F5D9FE00139B5D /* SMRStabilizeLoader.m */,
 				BDEE262420E33551005AD3E2 /* MightyCrash.h */,
 				BDEE262520E33551005AD3E2 /* MightyCrash.m */,
 				BDEE25F520E3351F005AD3E2 /* Main.storyboard */,
@@ -166,23 +168,22 @@
 			path = SMRStabilizeGuiderDemoUITests;
 			sourceTree = "<group>";
 		};
-		BDEE263620E372DE005AD3E2 /* SMRStabilizeGuider */ = {
-			isa = PBXGroup;
-			children = (
-				BDEE263820E372DE005AD3E2 /* SMRStabilizeGuider.h */,
-				BDEE263720E372DE005AD3E2 /* SMRStabilizeGuider.m */,
-				BD05A02F20F5D9FE00139B5D /* SMRStabilizeLoader.h */,
-				BD05A03020F5D9FE00139B5D /* SMRStabilizeLoader.m */,
-			);
-			path = SMRStabilizeGuider;
-			sourceTree = "<group>";
-		};
 		D4C7461FD12EE62FFF68206F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				6CC977C2528AAFBF98566296 /* Pods_SMRStabilizeGuiderDemo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE6BB5F12102D123006FC708 /* SMRStabilizeGuider */ = {
+			isa = PBXGroup;
+			children = (
+				FE6BB5F22102D123006FC708 /* SMRStabilizeGuider.h */,
+				FE6BB5F32102D123006FC708 /* SMRStabilizeGuider.m */,
+			);
+			name = SMRStabilizeGuider;
+			path = ../SMRStabilizeGuider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -359,8 +360,8 @@
 			files = (
 				BDEE25F420E3351F005AD3E2 /* ViewController.m in Sources */,
 				BDEE25F120E3351F005AD3E2 /* AppDelegate.m in Sources */,
+				FE6BB5F42102D123006FC708 /* SMRStabilizeGuider.m in Sources */,
 				BD05A03120F5D9FE00139B5D /* SMRStabilizeLoader.m in Sources */,
-				BDEE263920E372DF005AD3E2 /* SMRStabilizeGuider.m in Sources */,
 				BDEE260220E33520005AD3E2 /* main.m in Sources */,
 				BDEE262620E33551005AD3E2 /* MightyCrash.m in Sources */,
 				BDEE25FA20E3351F005AD3E2 /* SMRStabilizeGuiderDemo.xcdatamodeld in Sources */,
